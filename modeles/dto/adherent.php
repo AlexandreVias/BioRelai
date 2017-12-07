@@ -1,6 +1,7 @@
 <?php
 class Adherent{
 
+  use hydrate();
   private $login;
   private $mdp;
   private $nom;
