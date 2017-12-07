@@ -16,7 +16,7 @@ if(isset($_GET['menuPrincipal'])){
 	}
 }
 
-$messageErreurConnexion ='';
+$messageErreurConnexion = '';
 if(isset($_POST['login'], $_POST['mdp'])){
     $unAdherent = new Adherent($_POST['login'], $_POST['mdp'], '', '');
     $_SESSION['identification'] = AdherentDAO::verification($unAdherent);
