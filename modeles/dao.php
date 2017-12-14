@@ -96,19 +96,18 @@ class ProducteurDAO{
 }
 
 class ProduitDAO{
-public static function($unProducteur){
+public static function lesProduits($unProducteur){
 	$sql = "select code, codecateg, nom, descriptif, unite from PRODUIT where login =" . $unProducteur->getLogin();
 	$lesproduits = DBConnex::getInstance()->queryFetchAll($sql);
-	if (!empty($producteurs)) {
+	if (!empty($lesproduits)) {
 	$result = [];
 	foreach ($lesproduits as $produit) {
 		$unProduit = new Produit($produit['CODE'], $produit['CODECATEG'], $produit['NOM'], $produit['DESCRIPTIF'], $produit['UNITE']);
-		$unProduit->hydrate($produit);
 		$result[] = $unProduit;
 	}
 	return $result;
-}else {
-	return false;
-}
+	}else {
+		return false;
+	}
 }
 }

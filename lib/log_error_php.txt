@@ -280,3 +280,28 @@ Stack trace:
   thrown in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 7
 [14-Dec-2017 13:32:01 Europe/Berlin] PHP Warning:  require_once(/home/viasa/public_html/BioRelai/BioRelai/modeles/hydrate.php): failed to open stream: No such file or directory in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurPrincipal.php on line 9
 [14-Dec-2017 13:32:01 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '/home/viasa/public_html/BioRelai/BioRelai/modeles/hydrate.php' (include_path='.:/usr/share/php') in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurPrincipal.php on line 9
+[14-Dec-2017 13:48:30 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:48:30 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:48:30 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:48:30 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:48:30 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:50:29 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:50:29 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:50:29 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:50:29 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:50:29 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:51:04 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:51:04 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:51:04 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:51:04 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:51:04 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:51:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:51:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:51:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:51:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:51:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:53:19 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:53:19 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:53:19 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:53:19 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
+[14-Dec-2017 13:53:19 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/viasa/public_html/BioRelai/BioRelai/controleurs/controleurVisiteur.php on line 27
