@@ -23,7 +23,6 @@ if(!isset($_SESSION['identification']) || ! $_SESSION['identification']){
 }
 else{
     $_SESSION['identification']=[];
-    $_SESSION['menuPrincipal']="accueil";
     header('location: index.php');
 
 }
