@@ -7,7 +7,7 @@ class Producteur extends Adherent {
   private $ville;
   private $presentation;
 
-  public __construct($unLogin, $unMdp, $unNom, $unPrenom, $uneAdresse, $unCodePostal, $uneVille, $unePresentation){
+  public function __construct($unLogin, $unMdp, $unNom, $unPrenom, $uneAdresse, $unCodePostal, $uneVille, $unePresentation){
     parent::__construct($unLogin, $unMdp, $unNom, $unPrenom);
     $this->adresse = $uneAdresse;
     $this->codePostal = $unCodePostal;

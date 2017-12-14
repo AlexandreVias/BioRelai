@@ -75,13 +75,16 @@ class AdherentDAO{
 class ProducteurDAO{
 
 	public static function lesProducteurs(){
-		$sql = "SELECT * FROM PRODUCTEUR";
+		$sql = "SELECT ADHERENT.LOGIN, MOTDEPASSE, NOM, PRENOM, ADRESSE, CODEPOSTAL, VILLE, PRESENTATION
+		FROM ADHERENT, PRODUCTEUR
+		WHERE STATUT ='P'
+		AND ADHERENT.Login = PRODUCTEUR.Login
+		GROUP BY ADHERENT.LOGIN";
 		$producteurs = DBConnex::getInstance()->queryFetchAll($sql);
 		if (!empty($producteurs)) {
 			$result = [];
 			foreach ($producteurs as $producteur) {
-				$unProducteur = new Producteur($producteur['LOGIN'], $producteur['ADRESSE'], $producteur['CODEPOSTAL'], $producteur['VILLE'], $producteur['PRESENTATION']);
-				$unProducteur->hydrate($producteur);
+				$unProducteur = new Producteur($producteur['LOGIN'], $producteur['MOTDEPASSE'], $producteur['NOM'], $producteur['PRENOM'], $producteur['ADRESSE'], $producteur['CODEPOSTAL'], $producteur['VILLE'], $producteur['PRESENTATION']);
 				$result[] = $unProducteur;
 			}
 			return $result;
