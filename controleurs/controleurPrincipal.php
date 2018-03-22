@@ -6,6 +6,7 @@ require_once 'lib/formulaire.php';
 require_once 'lib/tableau.php';
 require_once 'lib/dispatcher.php';
 require_once 'modeles/dao.php';
+require_once 'lib/hydrate.php';
 
 
 if(isset($_GET['menuPrincipal'])){

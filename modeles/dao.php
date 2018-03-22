@@ -69,5 +69,28 @@ class AdherentDAO{
 			$sql = "SELECT * FROM ADHERENT WHERE LOGIN = '" . $unAdherent->getLogin() . "' AND  MOTDEPASSE = '" .  md5($unAdherent->getMdp()) ."';";
 			$login = DBConnex::getInstance()->queryFetchFirstRow($sql);
 			return $login;
+	}
 }
+
+class ProducteurDAO{
+
+	public static function lesProducteurs(){
+		$sql = "SELECT ADHERENT.LOGIN, MOTDEPASSE, NOM, PRENOM, ADRESSE, CODEPOSTAL, VILLE, PRESENTATION
+		FROM ADHERENT, PRODUCTEUR
+		WHERE STATUT ='P'
+		AND ADHERENT.Login = PRODUCTEUR.Login
+		GROUP BY ADHERENT.LOGIN";
+		$producteurs = DBConnex::getInstance()->queryFetchAll($sql);
+		if (!empty($producteurs)) {
+			$result = [];
+			foreach ($producteurs as $producteur) {
+				$unProducteur = new Producteur($producteur['LOGIN'], $producteur['MOTDEPASSE'], $producteur['NOM'], $producteur['PRENOM'], $producteur['ADRESSE'], $producteur['CODEPOSTAL'], $producteur['VILLE'], $producteur['PRESENTATION']);
+				$result[] = $unProducteur;
+			}
+			return $result;
+		}else {
+			return false;
+		}
+	}
+
 }
